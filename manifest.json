@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Super Copy",
+    "version": "2024.11.19",
+    "description": "Extension for Chrome and Edge. Provides the ability to select and copy text.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "./img/icon16.png",
+            "48": "./img/icon48.png",
+            "128": "./img/icon128.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "./img/icon16.png",
+        "48": "./img/icon48.png",
+        "128": "./img/icon128.png"
+    }
+}

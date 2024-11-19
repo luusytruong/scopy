@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #DDDDDD;
+    text-decoration: none;
+    user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+}
+
+::selection {
+    background-color: #6A5AF9;
+    color: #FFFFFF;
+}
+
+::-moz-selection {
+    background-color: #6A5AF9;
+    color: #FFFFFF;
+}
+
+button,
+input {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.extension {
+    width: 220px;
+    background-color: #292929;
+    padding: 16px;
+}
+
+.wrapper {
+    background-color: #3B3B3B;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.info {
+    font-size: 16px;
+    padding-bottom: 16px;
+    display: none;
+}
+
+#cook {
+    border: unset;
+    padding: 8px 0;
+    border-radius: 5px;
+    background: #292929;
+    cursor: pointer;
+}
+
+#cook:hover {
+    background-color: #303030;
+}
+
+#cook:active {
+    scale: 0.99;
+}
+
+#cook.enable {
+    background: #9B90FF;
+    color: #FFFFFF;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+a {
+    font-size: 12px;
+    color: #3B3B3B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+a:hover {
+    color: #8E81FF;
+}
